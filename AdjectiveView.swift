@@ -9,8 +9,9 @@ import SwiftUI
 
 struct AdjectiveView: View {
     var body: some View {
-        NavigationLink{
-            SummaryView()
+        NavigationLink(destination: SummaryView()){
+            Text("Next")
+           
         }
     }
 }
